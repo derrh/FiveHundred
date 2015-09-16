@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4924A1A01BA9813A002EF5D2 /* NSURLSession+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4924A19F1BA9813A002EF5D2 /* NSURLSession+Awesome.swift */; };
 		49474FF71BA9223500F6E55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49474FF61BA9223500F6E55B /* AppDelegate.swift */; };
 		49474FF91BA9223500F6E55B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49474FF81BA9223500F6E55B /* FirstViewController.swift */; };
 		49474FFB1BA9223500F6E55B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49474FFA1BA9223500F6E55B /* SecondViewController.swift */; };
 		49474FFE1BA9223500F6E55B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49474FFC1BA9223500F6E55B /* Main.storyboard */; };
 		494750001BA9223500F6E55B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49474FFF1BA9223500F6E55B /* Assets.xcassets */; };
+		4947500F1BA9225900F6E55B /* FiveHundredKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947500E1BA9225900F6E55B /* FiveHundredKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494750131BA9225900F6E55B /* FiveHundredKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947500C1BA9225900F6E55B /* FiveHundredKit.framework */; };
+		494750141BA9225900F6E55B /* FiveHundredKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4947500C1BA9225900F6E55B /* FiveHundredKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4947501D1BA922C300F6E55B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947501C1BA922C300F6E55B /* Photo.swift */; };
+		4947501F1BA923BA00F6E55B /* Jarsen+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947501E1BA923BA00F6E55B /* Jarsen+JSON.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		494750111BA9225900F6E55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49474FEB1BA9223500F6E55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4947500B1BA9225900F6E55B;
+			remoteInfo = FiveHundredKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		494750181BA9225900F6E55B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				494750141BA9225900F6E55B /* FiveHundredKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4924A19F1BA9813A002EF5D2 /* NSURLSession+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession+Awesome.swift"; sourceTree = "<group>"; };
 		49474FF31BA9223500F6E55B /* FiveHundred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveHundred.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49474FF61BA9223500F6E55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49474FF81BA9223500F6E55B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -22,10 +53,23 @@
 		49474FFD1BA9223500F6E55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49474FFF1BA9223500F6E55B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494750011BA9223500F6E55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4947500C1BA9225900F6E55B /* FiveHundredKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FiveHundredKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4947500E1BA9225900F6E55B /* FiveHundredKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveHundredKit.h; sourceTree = "<group>"; };
+		494750101BA9225900F6E55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4947501C1BA922C300F6E55B /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		4947501E1BA923BA00F6E55B /* Jarsen+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Jarsen+JSON.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49474FF01BA9223500F6E55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494750131BA9225900F6E55B /* FiveHundredKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494750081BA9225900F6E55B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,10 +79,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4924A1A11BA986AC002EF5D2 /* Ops */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Ops;
+			sourceTree = "<group>";
+		};
 		49474FEA1BA9223500F6E55B = {
 			isa = PBXGroup;
 			children = (
 				49474FF51BA9223500F6E55B /* FiveHundred */,
+				4947500D1BA9225900F6E55B /* FiveHundredKit */,
 				49474FF41BA9223500F6E55B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				49474FF31BA9223500F6E55B /* FiveHundred.app */,
+				4947500C1BA9225900F6E55B /* FiveHundredKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +117,31 @@
 			path = FiveHundred;
 			sourceTree = "<group>";
 		};
+		4947500D1BA9225900F6E55B /* FiveHundredKit */ = {
+			isa = PBXGroup;
+			children = (
+				4924A1A11BA986AC002EF5D2 /* Ops */,
+				4947501E1BA923BA00F6E55B /* Jarsen+JSON.swift */,
+				4947500E1BA9225900F6E55B /* FiveHundredKit.h */,
+				494750101BA9225900F6E55B /* Info.plist */,
+				4947501C1BA922C300F6E55B /* Photo.swift */,
+				4924A19F1BA9813A002EF5D2 /* NSURLSession+Awesome.swift */,
+			);
+			path = FiveHundredKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		494750091BA9225900F6E55B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947500F1BA9225900F6E55B /* FiveHundredKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		49474FF21BA9223500F6E55B /* FiveHundred */ = {
@@ -74,15 +151,35 @@
 				49474FEF1BA9223500F6E55B /* Sources */,
 				49474FF01BA9223500F6E55B /* Frameworks */,
 				49474FF11BA9223500F6E55B /* Resources */,
+				494750181BA9225900F6E55B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				494750121BA9225900F6E55B /* PBXTargetDependency */,
 			);
 			name = FiveHundred;
 			productName = FiveHundred;
 			productReference = 49474FF31BA9223500F6E55B /* FiveHundred.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4947500B1BA9225900F6E55B /* FiveHundredKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494750151BA9225900F6E55B /* Build configuration list for PBXNativeTarget "FiveHundredKit" */;
+			buildPhases = (
+				494750071BA9225900F6E55B /* Sources */,
+				494750081BA9225900F6E55B /* Frameworks */,
+				494750091BA9225900F6E55B /* Headers */,
+				4947500A1BA9225900F6E55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiveHundredKit;
+			productName = FiveHundredKit;
+			productReference = 4947500C1BA9225900F6E55B /* FiveHundredKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,10 +187,14 @@
 		49474FEB1BA9223500F6E55B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Derrick Hathaway";
 				TargetAttributes = {
 					49474FF21BA9223500F6E55B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4947500B1BA9225900F6E55B = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
@@ -112,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				49474FF21BA9223500F6E55B /* FiveHundred */,
+				4947500B1BA9225900F6E55B /* FiveHundredKit */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +225,13 @@
 			files = (
 				494750001BA9223500F6E55B /* Assets.xcassets in Resources */,
 				49474FFE1BA9223500F6E55B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947500A1BA9225900F6E55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +248,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		494750071BA9225900F6E55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4924A1A01BA9813A002EF5D2 /* NSURLSession+Awesome.swift in Sources */,
+				4947501F1BA923BA00F6E55B /* Jarsen+JSON.swift in Sources */,
+				4947501D1BA922C300F6E55B /* Photo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494750121BA9225900F6E55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4947500B1BA9225900F6E55B /* FiveHundredKit */;
+			targetProxy = 494750111BA9225900F6E55B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		49474FFC1BA9223500F6E55B /* Main.storyboard */ = {
@@ -239,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = FiveHundred/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.derrh.FiveHundred;
@@ -251,10 +379,52 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = FiveHundred/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.derrh.FiveHundred;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		494750161BA9225900F6E55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FiveHundredKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrh.FiveHundredKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		494750171BA9225900F6E55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FiveHundredKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derrh.FiveHundredKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -277,6 +447,16 @@
 				494750061BA9223500F6E55B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494750151BA9225900F6E55B /* Build configuration list for PBXNativeTarget "FiveHundredKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494750161BA9225900F6E55B /* Debug */,
+				494750171BA9225900F6E55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

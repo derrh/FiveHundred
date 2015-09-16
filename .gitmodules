@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/PSOperations"]
+	path = Carthage/Checkouts/PSOperations
+	url = https://github.com/derrh/PSOperations.git
