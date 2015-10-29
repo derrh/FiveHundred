@@ -48,3 +48,15 @@ public func <|? <A>(dictionary: [String: AnyObject], key: String) throws -> A? {
     
     return accumulator as? A
 }
+
+extension NSData {
+    func parseJSONObject() throws -> [String: AnyObject] {
+        let json = try NSJSONSerialization.JSONObjectWithData(self, options: NSJSONReadingOptions.AllowFragments)
+        guard let jsonObject = json as? [String: AnyObject] else {
+            throw JSONError.TypeMismatchForKey("<root>")
+        }
+        
+        return jsonObject
+    }
+}
+

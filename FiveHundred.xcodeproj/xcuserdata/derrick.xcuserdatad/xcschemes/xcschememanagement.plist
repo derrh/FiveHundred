@@ -4,25 +4,55 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FiveHundred iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>FiveHundred.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>FiveHundredKit iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>FiveHundredKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>FiveHundredTopShelf.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>490FFE8C1BAA7AFB00155D7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>490FFEA11BAA7B5300155D7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>49474FF21BA9223500F6E55B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>4947500B1BA9225900F6E55B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49B89BE31BAB69770046B6F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -11,6 +11,20 @@ import Foundation
 enum Either<L, R> {
     case Left(L)
     case Right(R)
+    
+    var left: L? {
+        if case .Left(let l) = self {
+            return l
+        }
+        return nil
+    }
+    
+    var right: R? {
+        if case .Right(let r) = self {
+            return r
+        }
+        return nil
+    }
 }
 
 extension NSError {

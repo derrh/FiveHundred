@@ -1,9 +1,8 @@
 {
   "images" : [
     {
-      "idiom" : "tv",
-      "filename" : "Layer 2.png",
-      "scale" : "1x"
+      "idiom" : "universal",
+      "filename" : "second.pdf"
     }
   ],
   "info" : {
